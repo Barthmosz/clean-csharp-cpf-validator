@@ -4,7 +4,7 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <Title>Clean Cpf Validator</Title>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Barthmosz</Authors>
     <Description>A simple and clean cpf validator.</Description>
     <PackageProjectUrl>https://github.com/Barthmosz/clean-csharp-cpf-validator</PackageProjectUrl>
@@ -12,7 +12,7 @@
     <RepositoryType>git</RepositoryType>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>Cpf;Validator;Validation</PackageTags>
-    <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+    <PackageReleaseNotes>Usage instructions.</PackageReleaseNotes>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
