@@ -16,5 +16,11 @@ namespace Clean.CpfValidator.Test
         {
             Assert.That(CpfValidator.Validate(""), Is.EqualTo(false));
         }
+
+        [Test, Description("ensure CpfValidator returns true if a valid cpf is provided")]
+        public void CpfValidator_ValidCpf_ReturnsFalse()
+        {
+            Assert.That(CpfValidator.Validate("123.456.789-12"), Is.EqualTo(true));
+        }
     }
 }
