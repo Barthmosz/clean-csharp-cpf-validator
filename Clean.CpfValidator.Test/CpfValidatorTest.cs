@@ -10,5 +10,11 @@ namespace Clean.CpfValidator.Test
         {
             Assert.That(CpfValidator.Validate("123.456.678"), Is.EqualTo(false));
         }
+
+        [Test, Description("ensure CpfValidator returns false if an empty cpf is provided")]
+        public void CpfValidator_EmptyCpf_ReturnsFalse()
+        {
+            Assert.That(CpfValidator.Validate(""), Is.EqualTo(false));
+        }
     }
 }
